@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ToDoTask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#766791"
+    tools:context=".activities.MainActivity2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        app:cardBackgroundColor="#8E7AC6"
+        app:cardCornerRadius="30dp"
+        app:contentPadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/textbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Task"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#D8D3D3"
+            android:textSize="24sp"
+            android:translationY="100dp" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:translationX="0dp" />
+
+        <Button
+            android:id="@+id/updatebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AddItem"
+            android:text="Update Task"
+            android:textSize="24sp"
+            android:translationY="320dp" />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AddItem"
+            android:text="Delete Task"
+            android:textSize="24sp"
+            android:translationY="400dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

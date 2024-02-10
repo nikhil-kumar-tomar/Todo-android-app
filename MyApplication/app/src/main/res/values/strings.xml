@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Todoo</string>
+    <string name="click_btn_1_text">Someting</string>
+    <string name="btn_1_text">Click Me</string>
+</resources>
